@@ -1,0 +1,52 @@
+{
+  "name": "nuxt2-storybook-tailwind2",
+  "version": "1.0.0",
+  "description": "Nuxt.js 2 Test with Storybook and Tailwind 2",
+  "author": "Erick Eduardo Petrucelli",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "serve": "nuxt storybook -p 3001",
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "core-js": "3.16.1",
+    "nuxt": "2.15.8",
+    "vue": "2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/eslint-parser": "7.15.0",
+    "@babel/plugin-proposal-private-property-in-object": "7.15.4",
+    "@nuxtjs/eslint-config": "6.0.1",
+    "@nuxtjs/eslint-module": "3.0.2",
+    "@nuxtjs/storybook": "4.1.1",
+    "@nuxtjs/tailwindcss": "4.2.1",
+    "@storybook/addon-a11y": "6.3.7",
+    "@storybook/addon-actions": "6.3.7",
+    "@storybook/addon-backgrounds": "6.3.7",
+    "@storybook/addon-controls": "6.3.7",
+    "@storybook/addon-docs": "6.3.7",
+    "@storybook/addon-viewport": "6.3.7",
+    "@storybook/addons": "6.3.7",
+    "@storybook/api": "6.3.7",
+    "@storybook/components": "6.3.7",
+    "@storybook/core-events": "6.3.7",
+    "@storybook/theming": "6.3.7",
+    "autoprefixer": "10.4.2",
+    "babel-loader": "8.2.2",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-nuxt": "2.0.0",
+    "eslint-plugin-tailwindcss": "1.15.0",
+    "eslint-plugin-vue": "7.18.0",
+    "postcss": "8.4.6",
+    "postcss-import": "14.0.2",
+    "prettier": "2.4.1",
+    "storybook-dark-mode": "^1.0.8",
+    "typescript": "4.3.5",
+    "vue-template-compiler": "2.6.14",
+    "webpack": "4.46.0"
+  }
+}

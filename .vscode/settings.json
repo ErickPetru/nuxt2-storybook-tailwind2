@@ -1,0 +1,12 @@
+{
+  "css.customData": [".vscode/tailwind.json"],
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.organizeImports"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  }
+}
